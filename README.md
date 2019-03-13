@@ -1,5 +1,7 @@
 # Overview
 
+Installs [application mern-crud](https://github.com/cefjoeii/mern-crud) on Ubuntu 18.04 LTS on Azure.
+
 This will do the following tasks:
 
 * Install MongoDB and start a localhost instance on port 27017
@@ -22,4 +24,3 @@ This will do the following tasks:
 # TBD
 
 More docs on install instructions. 
-OS version info on image
