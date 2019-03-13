@@ -8,6 +8,11 @@
     "override_attributes": {
     },
     "run_list": [
-        "recipe[example]"
+  "recipe[apt::default]",
+  "recipe[az-mongodb::default]",
+  "recipe[az-npm::default]",
+  "recipe[nodejs::default]",
+  "recipe[deploy-app::default]",
+  "recipe[git::default]"
     ]
 }
