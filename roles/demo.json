@@ -1,18 +1,24 @@
 {
-    "name": "demo",
-    "description": "This is an example role defined as JSON",
-    "chef_type": "role",
-    "json_class": "Chef::Role",
-    "default_attributes": {
-    },
-    "override_attributes": {
-    },
-    "run_list": [
-  "recipe[apt::default]",
-  "recipe[az-mongodb::default]",
-  "recipe[az-npm::default]",
-  "recipe[nodejs::default]",
-  "recipe[deploy-app::default]",
-  "recipe[git::default]"
-    ]
+  "name": "demo",
+  "description": "",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apt::default]",
+    "recipe[az-mongodb::default]",
+    "recipe[az-npm::default]",
+    "recipe[nodejs::default]",
+    "recipe[deploy-app::default]",
+    "recipe[nginx::default]",
+    "recipe[git::default]"
+  ],
+  "env_run_lists": {
+
+  }
 }
