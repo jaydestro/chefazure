@@ -57,3 +57,26 @@ chefconf-vm-jg2.suvgto0qfjuutmudlqa5pni3zh.bx.internal.cloudapp.net
 demo.vhveklo05x4upgun0knk3psgve.parx.internal.cloudapp.net
 ```
 
+**Next, let's activate your Azure pass at https://www.microsoftazurepass.com/Home/HowTo**
+
+If you don't have an Azure Pass code, ask an instructor!
+
+**Create Ubuntu VM - From Portal**
+
+1. Create a resource group (name chefconf-YOURINITIALS, any region)
+2. Click "Create a Resource"
+3. Search for "Ubuntu Server 18.04 LTS" - Select the option and create
+4. Create new VM using tge following settings -
+  * Subscription - Created from Azure Pass
+  * Resource Group - chefconf-YOURINITIALS
+  * Virtual Machine Name - chefconf-YOURINITIALS-vm01
+  * Region - Any
+  * Availability options - leave default
+  * Image - Ubuntu Server 18.04 - LTS
+  * Size - Default
+  * Authentication type - Password
+  * Username: chefconf2019 
+  * Password: Chefc0nf2019!
+  * Inbound ports: SSH/HTTP 
+  * Virtual Network - Create new - chefconf2019-YOURINITIALS-vnet
+  * Subnet - default, click "Manage subnet configuration"
