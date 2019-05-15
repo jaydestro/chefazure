@@ -21,6 +21,10 @@ This will do the following tasks:
 * Validate chef-client run.
 
 
-# TBD
+# 
 
-More docs on install instructions. 
+Create simple Ubuntu Server with ARM template on Azure:
+
+```
+az group deployment create --resource-group chefconf-jg --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-sshkey/azuredeploy.json --parameters adminPublicKey="YOUR PUB SSH KEY HERE" adminUsername=USERNAMEHERE
+```
