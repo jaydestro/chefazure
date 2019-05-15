@@ -2,6 +2,9 @@
 
 Installs [application mern-crud](https://github.com/cefjoeii/mern-crud) on Ubuntu 18.04 LTS on Azure.
 
+# Required
+* Chef server with valid local client configuration.  I used [Chef Automate](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=docs-github-jagord) for Azure. 
+
 This will do the following tasks:
 
 * Install MongoDB and start a localhost instance on port 27017
@@ -17,7 +20,7 @@ This will do the following tasks:
 * Clone this repository.
 * Upload Cookbooks
 * Create nodes
-* Bootstrap Node via Azure Extension
+* Bootstrap Node via [Chef Linux Azure Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=docs-github-jagord)
 * Validate chef-client run.
 
 
