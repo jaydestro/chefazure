@@ -26,5 +26,5 @@ This will do the following tasks:
 Create simple Ubuntu Server with ARM template on Azure:
 
 ```
-az group deployment create --resource-group chefconf-jg --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-sshkey/azuredeploy.json --parameters adminPublicKey="YOUR PUB SSH KEY HERE" adminUsername=USERNAMEHERE
+az group deployment create --resource-group YOURRESOURCEGROUPNAME --template-uri https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-sshkey/azuredeploy.json --parameters adminPublicKey="YOUR PUB SSH KEY HERE" adminUsername=USERNAMEHERE
 ```
