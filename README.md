@@ -3,7 +3,7 @@
 Installs [application mern-crud](https://github.com/cefjoeii/mern-crud) on Ubuntu 18.04 LTS on Azure.
 
 # Required
-* Chef server with valid local client configuration.  I used [Chef Automate](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=chefazure-github-jagord) for Azure. 
+* Chef server with valid local client configuration.  I used [Chef Automate](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=devops-0000-jagord) for Azure. 
 
 This will do the following tasks:
 
@@ -20,7 +20,7 @@ This will do the following tasks:
 * Clone this repository.
 * Upload Cookbooks
 * Create nodes
-* Bootstrap Node via [Chef Linux Azure Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=chefazure-github-jagord)
+* Bootstrap Node via [Chef Linux Azure Extension](https://docs.microsoft.com/azure/virtual-machines/extensions/chef?WT.mc_id=devops-0000-jagord)
 * Validate chef-client run.
 
 
